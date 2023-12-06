@@ -1,0 +1,6 @@
+[data-search]:not([data-search=""]) .card:not(.search-result) { display: none; }
+.container    { padding: 0.5rem 0; }
+.card         { padding: 0.5rem; border: 1px solid #ccc; }
+.card + .card { margin-top: -1px; }
+.card img     { display: none; } /* картинки все равно "битые" из-за URL */
+.card p       { margin: 0; }
